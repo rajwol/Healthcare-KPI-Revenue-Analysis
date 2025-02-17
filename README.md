@@ -2,27 +2,23 @@
 
 ## **Project Overview**
 
-This project focuses on analyzing synthetic healthcare data using both SQL and Power BI to generate and visualize the analysis. This analysis helps identify key year-over-year hospital metrics including the total amount of revenue generated, average billing amount per visit, patient admission, and length of stay (LOS).
+This project focuses on analyzing synthetic healthcare data using both SQL and Power BI to generate and visualize the analysis. This analysis helps identify key year-over-year hospital metrics including the total amount of revenue generated, average billing amount per visit, patient admission, and average length of stay (LOS).
 
 ## **Dataset Description**
 
 - **Dashboard**: [Healthcare Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMGY1NWYyOTUtMTFmYS00Yzk2LWI4NzEtMzhhNTYyYjcxYzU2IiwidCI6IjVhNzRkMDlhLWU5YzktNDAzZi1iMGZkLTk5ZGVjNDE4OTdlZCIsImMiOjN9)
 
-- **Source**: Synthetic data generated for Massachusetts General Hospital.
+- **Source**: [Synthetic Healthcare Dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset/data)
 
-- **Link To Dataset**: https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8
-
-- **Timeframe**: 2011-2022
-
-- **Records**: ~1,000 patients
+- **Timeframe**: 2019-2024
 
 - **Key Features**:
 
-  - **Patient Demographics**: Age, gender, ethnicity, etc.
+  - **YoY Trends**: Revenue, patient admission, average billing amount per visit, and average length of stay (LOS) were measured and compared to the prior year to assess how the hospital is functioning
 
-  - **Insurance Coverage**: Types of insurance, coverage details.
+  - **Admission & Medication Types**: Percentages of admission and medication type were measured to view trends.
 
-  - **Medical Encounters & Procedures**: Inpatient/outpatient visits, procedures performed, diagnosis codes.
+  - **Hospital, Insurance, and Condition Analysis**: Identified the allocation of revenue and patient count based on the selected measure
 
 ## **Objectives**
 
