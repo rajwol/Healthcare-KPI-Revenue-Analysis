@@ -6,6 +6,8 @@ This project focuses on analyzing synthetic healthcare data using both SQL and P
 
 ## **Dataset Description**
 
+- **Dashboard**: [Healthcare Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMGY1NWYyOTUtMTFmYS00Yzk2LWI4NzEtMzhhNTYyYjcxYzU2IiwidCI6IjVhNzRkMDlhLWU5YzktNDAzZi1iMGZkLTk5ZGVjNDE4OTdlZCIsImMiOjN9)
+
 - **Source**: Synthetic data generated for Massachusetts General Hospital.
 
 - **Link To Dataset**: https://mavenanalytics.io/challenges/maven-hospital-challenge/facee4d2-8369-4c87-a55e-e6c7ed2a42d8
