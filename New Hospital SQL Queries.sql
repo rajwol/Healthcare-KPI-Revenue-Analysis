@@ -110,7 +110,7 @@ FilteredResults AS (
         current_year_billing,
         previous_year_billing,
         yoy_change,
-        ROW_NUMBER() OVER(PARTITION BY current_year ORDER BY yoy_change DESC) AS yoy_change_rank
+        DENSE_RANK() OVER(PARTITION BY current_year ORDER BY yoy_change DESC) AS yoy_change_rank
     FROM YoYBilling
     WHERE previous_year_billing is not null
 )
